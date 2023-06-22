@@ -45,10 +45,12 @@ Make sure you have the following prerequisites installed:
 
       - Create a .env file in the project root directory.
       - Add the following environment variables:
-        
+  
+          ```
           MONGODB_URI=mongodb://localhost:27017/bookstore
           PORT=3000
-      
+          ```
+          
         Adjust the values as per your MongoDB setup and preferred port.
 
 ### Usage
