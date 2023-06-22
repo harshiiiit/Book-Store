@@ -59,7 +59,7 @@ Make sure you have the following prerequisites installed:
     
       The server will start running on the specified port (default: 3000) and establish a connection to the MongoDB database.
       
-2.  Use an API testing tool like Postman or cURL to send requests to the API endpoints (see API Endpoints).
+2.  Use an API testing tool like Postman or cURL to send requests to the API endpoints (see API Endpoints)(https://github.com/harshiiiit/Book-Store/blob/main/docs/API.md).
     
 ### API Endpoints
 
