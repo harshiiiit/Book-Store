@@ -11,7 +11,6 @@ Welcome to the Bookstore API! This project provides a RESTful API for managing b
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
