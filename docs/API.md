@@ -55,7 +55,7 @@ Returns a specific book based on the provided ID.
     }
   ```
   
-###Create a new book
+###  Create a new book
 
 Creates a new book in the bookstore.
 
@@ -84,7 +84,7 @@ Creates a new book in the bookstore.
     }
   ```
 
-###Update an existing book
+###  Update an existing book
 
 Updates an existing book based on the provided ID.
 
@@ -115,5 +115,5 @@ Updates an existing book based on the provided ID.
     }
   ```
   
-###Delete a book
+###  Delete a book
         
