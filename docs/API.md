@@ -15,7 +15,7 @@ Returns a list of all books in the bookstore.
   - Status Code: 200 (OK)
   - Body:
 
-    [
+    ```[
       {
         "id": "1",
         "title": "Book 1",
@@ -30,6 +30,7 @@ Returns a list of all books in the bookstore.
       },
       // Additional books...
     ]
+    ```
 
 ### Get a specific book by ID
 
