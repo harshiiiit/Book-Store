@@ -33,14 +33,18 @@ Make sure you have the following prerequisites installed:
 ### Installation
 
 1. Clone the repository:
- 
+
+   ```
     git clone https://github.com/your-username/bookstore-api.git
+    ```
 
 2. Install the dependencies:
 
+    ```
     cd bookstore-api
     npm install
-  
+    ```
+
 3.  Configure the environment variables:
 
       - Create a .env file in the project root directory.
@@ -56,12 +60,14 @@ Make sure you have the following prerequisites installed:
 ### Usage
 
 1.  Start the server:
-    
+
+      ```
       npm start
-    
+      ```
+
       The server will start running on the specified port (default: 3000) and establish a connection to the MongoDB database.
       
-2.  Use an API testing tool like Postman or cURL to send requests to the API endpoints [see API Endpoints](https://github.com/harshiiiit/Book-Store/blob/main/docs/API.md).
+1.  Use an API testing tool like Postman or cURL to send requests to the API endpoints [see API Endpoints](https://github.com/harshiiiit/Book-Store/blob/main/docs/API.md).
     
 ### API Endpoints
 
