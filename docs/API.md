@@ -10,7 +10,7 @@ Returns a list of all books in the bookstore.
 
 - Endpoint: `GET /books`
 
-  Response
+  ### Response
 
   - Status Code: 200 (OK)
   - Body:
@@ -41,19 +41,19 @@ Returns a specific book based on the provided ID.
   - Parameters:
           id: The ID of the book
 
-  Response
+    ### Response
 
-  - Status Code: 200 (OK)
-  - Body:
-
-  ```
-    {
-    "id": "1",
-    "title": "Book 1",
-    "author": "Author 1",
-    "publishedYear": 2022
-    }
-  ```
+    - Status Code: 200 (OK)
+    - Body:
+  
+    ```
+      {
+      "id": "1",
+      "title": "Book 1",
+      "author": "Author 1",
+      "publishedYear": 2022
+      }
+    ```
   
 ###Create a new book
 
@@ -62,25 +62,27 @@ Creates a new book in the bookstore.
   - Endpoint: POST /books
   - Body:
 
+    ```
     {
     "title": "New Book",
     "author": "New Author",
     "publishedYear": 2023
     }
+    ```
 
-  Response
+  ###  Response
 
-  - Status Code: 201 (Created)
-  - Body:
-
-  ```
-     {
-    "id": "3",
-    "title": "New Book",
-    "author": "New Author",
-    "publishedYear": 2023
-    }
-  ```
+    - Status Code: 201 (Created)
+    - Body:
+  
+    ```
+       {
+      "id": "3",
+      "title": "New Book",
+      "author": "New Author",
+      "publishedYear": 2023
+      }
+    ```
 
 ###Update an existing book
 
@@ -99,19 +101,19 @@ Updates an existing book based on the provided ID.
      }
   ```
   
-  Response
+  ###  Response
 
-  - Status Code: 200 (OK)
-  - Body:
-
-  ```
-     {
-    "id": "3",
-    "title": "Updated Book",
-    "author": "Updated Author",
-    "publishedYear": 2023
-    }
-  ```
+    - Status Code: 200 (OK)
+    - Body:
+  
+    ```
+       {
+      "id": "3",
+      "title": "Updated Book",
+      "author": "Updated Author",
+      "publishedYear": 2023
+      }
+    ```
   
 ###Delete a book
         
