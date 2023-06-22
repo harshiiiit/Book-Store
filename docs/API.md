@@ -6,11 +6,11 @@ The Bookstore API allows you to perform CRUD operations on books in the bookstor
 
 ### Retrieve all books
 
-##Returns a list of all books in the bookstore.
+Returns a list of all books in the bookstore.
 
 - Endpoint: `GET /books`
 
-  # Response
+  #Response
 
   - Status Code: 200 (OK)
   - Body:
@@ -33,10 +33,10 @@ The Bookstore API allows you to perform CRUD operations on books in the bookstor
 
 ### Get a specific book by ID
 
-  ##Returns a specific book based on the provided ID.
+Returns a specific book based on the provided ID.
 
   - Endpoint: GET /books/:id
-   - Parameters:
+  - Parameters:
           id: The ID of the book
 
   #Response
@@ -53,7 +53,7 @@ The Bookstore API allows you to perform CRUD operations on books in the bookstor
   
 ###Create a new book
 
-  ##Creates a new book in the bookstore.
+Creates a new book in the bookstore.
 
   - Endpoint: POST /books
   - Body:
@@ -78,7 +78,7 @@ The Bookstore API allows you to perform CRUD operations on books in the bookstor
 
 ###Update an existing book
 
-  ##Updates an existing book based on the provided ID.
+Updates an existing book based on the provided ID.
 
   - Endpoint: PUT /books/:id
   - Parameters:
