@@ -1,6 +1,6 @@
 # Bookstore API
 
-Welcome to the Bookstore API! This project provides a RESTful API for managing books in a bookstore. It is built with Node.js, Express, and MongoDB, and allows users to perform CRUD operations on books.
+Welcome to the Bookstore API! This project provides a **RESTful API** for managing books in a bookstore. It is built with **Node.js**, **Express**, and **MongoDB**, and allows users to **perform CRUD operations** on books.
 
 ## Table of Contents
 
